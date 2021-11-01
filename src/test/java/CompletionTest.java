@@ -3,12 +3,11 @@
  *  Copyright 2021 Liam Carroll
  */
 
-import org.junit.Test;
-import org.junit.jupiter.api.Test;
-
-import static org.junit.Assert.assertEquals;
+import org.testng.annotations.Test;
 
 public class CompletionTest {
+
+    @Test
 
     public void testEditCompletion() {
 

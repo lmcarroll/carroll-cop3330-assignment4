@@ -29,10 +29,10 @@
                      <contextMenu>
                         <ContextMenu>
                           <items>
-                              <MenuItem mnemonicParsing="false" text="Edit Description" />
+                              <MenuItem mnemonicParsing="false" text="Edit ucf.assignments.Description" />
                               <MenuItem mnemonicParsing="false" text="Edit Due Date" />
                               <MenuItem mnemonicParsing="false" text="Edit Title" />
-                              <MenuItem mnemonicParsing="false" text="Add Item" />
+                              <MenuItem mnemonicParsing="false" text="Add ucf.assignments.Item" />
                               <MenuItem mnemonicParsing="false" text="Mark Incomplete" />
                               <MenuItem mnemonicParsing="false" text="Mark Complete" />
                             <MenuItem mnemonicParsing="false" text="Delete" />

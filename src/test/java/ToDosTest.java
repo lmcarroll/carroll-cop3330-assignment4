@@ -3,10 +3,7 @@
  *  Copyright 2021 Liam Carroll
  */
 
-import org.junit.Test;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.Assert.assertEquals;
 
 public class ToDosTest {
 
@@ -16,7 +13,7 @@ public class ToDosTest {
 
         //initialize underTest variable
 
-        //attempts to call addToDo to add to ToDos list
+        //attempts to call addToDo to add to ucf.assignments.ToDos list
 
         //if success, assert equals
     }
@@ -25,7 +22,7 @@ public class ToDosTest {
 
         //initialize underTest variable
 
-        //attempts to call addToDo to remove from ToDos list
+        //attempts to call addToDo to remove from ucf.assignments.ToDos list
 
         //if success, assert equals
     }
@@ -34,7 +31,7 @@ public class ToDosTest {
 
         //initializes underTest variable
 
-        //attempts to load a ToDos list from a test file
+        //attempts to load a ucf.assignments.ToDos list from a test file
 
         //if success, assert equals
     }
@@ -43,7 +40,7 @@ public class ToDosTest {
 
         //initializes underTest variable
 
-        //attempts to save a ToDos list to a test file
+        //attempts to save a ucf.assignments.ToDos list to a test file
 
         //if success, assert equals
     }

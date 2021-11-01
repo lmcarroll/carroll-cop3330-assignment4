@@ -3,13 +3,15 @@
  *  Copyright 2021 Liam Carroll
  */
 
+package ucf.assignments;
+
 public class DueDate {
 
     //declare dueDate String attribute
 
     //constructor: create class parameter: dueDate String
 
-    //assign parameter to DueDate class attribute
+    //assign parameter to ucf.assignments.DueDate class attribute
 
     public void editDueDate() {
 

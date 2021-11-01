@@ -3,13 +3,15 @@
  *  Copyright 2021 Liam Carroll
  */
 
+package ucf.assignments;
+
 public class Completion {
 
     //declare completion boolean attribute
 
     //constructor: create class parameter: completion boolean variable
 
-    //assign parameter to Completion class attribute
+    //assign parameter to ucf.assignments.Completion class attribute
     
     public void editCompletion() {
 

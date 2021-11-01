@@ -3,11 +3,13 @@
  *  Copyright 2021 Liam Carroll
  */
 
+package ucf.assignments;
+
 public class App {
 
-    public void start() {
+    static void start() {
 
-        
+
     }
 
         public static void main(String[] args) {

@@ -3,6 +3,8 @@
  *  Copyright 2021 Liam Carroll
  */
 
+package ucf.assignments;
+
 import java.util.List;
 
 public class Item {
@@ -11,7 +13,7 @@ public class Item {
 
     //constructor: create class parameter: itemTitle String
 
-    //assign parameter to Item class attribute
+    //assign parameter to ucf.assignments.Item class attribute
 
     public void editItemTitle() {
 

@@ -3,13 +3,15 @@
  *  Copyright 2021 Liam Carroll
  */
 
+package ucf.assignments;
+
 public class Description {
 
     //declare description String attribute
 
     //constructor: create class parameter: description String
 
-    //assign parameter to Description class attribute
+    //assign parameter to ucf.assignments.Description class attribute
 
     public void editDescription() {
 

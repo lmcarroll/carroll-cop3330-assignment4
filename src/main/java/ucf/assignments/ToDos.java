@@ -3,6 +3,8 @@
  *  Copyright 2021 Liam Carroll
  */
 
+package ucf.assignments;
+
 import java.util.List;
 
 public class ToDos {
@@ -11,7 +13,7 @@ public class ToDos {
 
     //constructor: create class parameter: List of toDos
 
-    //assign parameter to ToDos class attribute
+    //assign parameter to ucf.assignments.ToDos class attribute
 
     public void saveToDos(String file) {
 
@@ -28,14 +30,14 @@ public class ToDos {
 
     public List addToDo() {
 
-        //add ItemList to toDos List
+        //add ucf.assignments.ItemList to toDos List
 
         return this.toDos;
     }
 
     public List removeToDo() {
 
-        //remove ItemList from toDos List
+        //remove ucf.assignments.ItemList from toDos List
 
         return this.toDos;
     }
