@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="26.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <SplitPane dividerPositions="0.5" layoutY="26.0" orientation="VERTICAL" prefHeight="374.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <ListView layoutX="-7.0" layoutY="36.0" prefHeight="147.0" prefWidth="599.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="36.0">
+                     <contextMenu>
+                        <ContextMenu>
+                          <items>
+                              <MenuItem mnemonicParsing="false" text="Edit Description" />
+                              <MenuItem mnemonicParsing="false" text="Edit Due Date" />
+                              <MenuItem mnemonicParsing="false" text="Edit Title" />
+                              <MenuItem mnemonicParsing="false" text="Add Item" />
+                              <MenuItem mnemonicParsing="false" text="Mark Incomplete" />
+                              <MenuItem mnemonicParsing="false" text="Mark Complete" />
+                            <MenuItem mnemonicParsing="false" text="Delete" />
+                          </items>
+                        </ContextMenu>
+                     </contextMenu></ListView>
+                  <ButtonBar layoutY="-7.0" prefHeight="41.0" prefWidth="599.0">
+                    <buttons>
+                      <Button mnemonicParsing="false" prefHeight="11.0" text="List of Items" translateX="-500.0" translateY="5.0" />
+                    </buttons>
+                  </ButtonBar>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <ListView layoutX="164.0" layoutY="37.0" prefHeight="147.0" prefWidth="599.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="37.0" />
+                  <ButtonBar prefHeight="42.0" prefWidth="599.0">
+                     <buttons>
+                        <Button mnemonicParsing="false" prefHeight="11.0" text="ToDo Lists" translateX="-500.0" translateY="-1.0" />
+                     </buttons>
+                  </ButtonBar>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

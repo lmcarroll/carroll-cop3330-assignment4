@@ -1,0 +1,50 @@
+@startuml
+
+Class ToDos {
+List toDos
+saveToDos()
+loadToDos()
+addToDos()
+removeToDos()
+}
+
+Class ItemList {
+String listTitle
+List items
+displayItems()
+displayIncomplete()
+displayComplete()
+saveItemList()
+loadItemList()
+editListTitle()
+addItem()
+removeItem()
+}
+
+Class Item {
+String itemTitle
+editItemTitle()
+}
+
+Class Description {
+String description
+editDescription()
+}
+
+Class Completion {
+boolean completion
+editCompletion()
+}
+
+Class DueDate {
+String dueDate
+editDueDate()
+}
+
+ToDos <|-- ItemList
+ItemList <|-- Item
+Item <|-- Description
+Item <|-- Completion
+Item <|-- DueDate
+
+@enduml
